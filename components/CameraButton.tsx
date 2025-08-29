@@ -1,7 +1,7 @@
-import React, { useRef, useState } from 'react';
-import { View, TouchableOpacity, Text, StyleSheet, Modal } from 'react-native';
-import { CameraView, CameraType, Camera } from 'expo-camera';
 import { Ionicons } from '@expo/vector-icons';
+import { Camera, CameraView } from 'expo-camera';
+import React, { useRef, useState } from 'react';
+import { Modal, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 
 export default function CameraButton({ onPictureTaken }: { onPictureTaken?: (uri: string) => void }) {
   const [hasPermission, setHasPermission] = useState<boolean | null>(null);

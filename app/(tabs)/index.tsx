@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
-import { StyleSheet, View, Text, ScrollView } from 'react-native';
 import CameraButton from '@/components/CameraButton';
 import ImageUploader from '@/components/ImageUploader';
-import { Image } from 'expo-image';
 import { ThemedText } from '@/components/ThemedText';
+import { Image } from 'expo-image';
+import React, { useState } from 'react';
+import { ScrollView, StyleSheet, Text, View } from 'react-native';
 
 // TODO: Replace with your real OCR/AI API key and endpoint
 const AI_API_KEY = 'K87650323388957';
